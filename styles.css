@@ -1,0 +1,674 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ece949;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+    
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    color: #f4f4f4;
+    background-image: url(imgs/download\ \(7\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+
+.hero h2 {
+    margin-top: 160px
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ece949;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s;
+    border: 2px solid #ece949;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ece949;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    margin: 10px 150px
+    
+    
+}
+
+.feature {
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    margin: 0 1rem;
+    color: #f4f4f4;
+    border-radius: 4px;
+    filter: brightness(70%);
+    height: 300px;
+    transition: 0.3s;
+}
+.feature:hover{
+    
+    transform: scale(1.05);
+    filter: brightness(100%);
+    
+    
+
+    
+}
+
+#line{
+    border: 3px solid #ece949;
+    height: 0;
+    width: 100%;
+}
+#card1{
+    background-image: url(imgs/equip.png);
+    background-size: cover;
+}
+#card2{
+    background-image: url(imgs/NonZero\ Gravity\ Activewear.png);
+    background-size: cover;
+}
+#card3{
+    background-image: url(imgs/Sustainable\ Fashion\ __\ &\ Other\ Stories\ x\ The\ Black\ Women’s\ Yoga\ Collective\ Yoga\ Collection.png);
+    background-size: cover;
+}
+
+.content{
+    text-align: center;
+    height: auto;
+    margin: 20px;
+    margin-top: 100px;
+    gap: 20px;
+    align-content: center;
+    margin: 0 auto;
+ 
+    
+
+
+}
+#pic{
+
+   background-image: url(imgs/BodyPump\ 123\ team.png);
+   
+   background-size: cover;
+   background-position: center;
+   height: 367px;
+   width: 400px;
+   margin: 0 auto;
+   
+
+    
+}
+#meethead{
+    color: #f4f4f4;
+    font-size: 30px;
+}
+#meetteamtxt{
+    
+    margin: 20px 100px;
+    color: #f4f4f4;
+   
+    height: 130px;
+    
+    
+   
+
+}
+.reviews{
+
+    height: auto;
+    display: flex;
+    padding: 5px;
+    margin-top: 100px;
+    
+    
+}
+.review{
+    background-color: #000000;
+    color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border: 5px solid #ece949;
+
+}
+.pict{
+    height: 150px;
+    width: 150px;
+    
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+#prof1{
+    background-image: url(imgs/download\ \(8\).png);
+    background-size: cover;
+}
+
+#prof2{
+    background-image: url(imgs/download\ \(9\).png);
+    background-size: cover;
+}
+
+#prof3{
+    background-image: url(imgs/85+\ Stunning\ Hairstyle\ Ideas\ For\ Women\ Over\ 40.png);
+    background-size: cover;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    color: #ece949;
+}
+  
+
+.class-list, .trainers, .contact {
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.class-item, .trainer {
+    margin-bottom: 1rem;
+}
+.class-item{
+    
+    height: 600px;
+    display: inline-block;
+    margin: 20px;
+    
+   
+    
+}
+.carp{
+    height: 600px;
+    width: 50%;
+    
+
+
+}
+.txtcard{
+    width: 50%;
+    height: 600px;
+}
+
+#yogapic{
+    float: right;
+    background-image: url(imgs/yogahead.png);
+    background-size: cover;
+    background-position: cover;
+}
+#pilatespic{
+    float: right;
+    background-image: url(imgs/pilates.png);
+    background-size: cover;
+    background-position: center;
+}
+#txtcard2{
+    float: right;
+}
+#hiitpic{
+    float:left;
+    background-image: url(imgs/hiit.png);
+    background-position: 50%;
+}
+.classbtn{
+   
+    padding: 0.5rem 1rem;
+    background-color: #ece949;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    justify-content: center;
+    border: 2px solid #ece949;
+    
+}
+.classbtn:hover{
+    background-color: #000000;
+    color: #ece949;
+    
+}
+.txt{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.lineBetween{
+
+    opacity: 0;
+    
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px
+}
+footer{
+
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#box1{
+
+    display: flex;
+    padding: 40px;
+    
+}
+#sec1{
+    
+    width: 60%;
+    text-align: center;
+}
+#socmed{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  
+}
+.socs{
+    padding:5px;
+    width: 18px;
+    margin: 10px;
+    background-color: #ece949;
+    border-radius: 50%;
+
+    
+}
+.socs:hover{
+    cursor: pointer;
+    background-color: #999742;
+
+}
+
+#sec2{
+   
+    width: 40%;
+   text-align: center;
+  
+  
+}
+#footerlinks
+{
+    list-style:none;
+    padding: 5px;
+    
+}
+#footerlinks a{
+       
+    text-decoration: none;
+    color: #f4f4f4;
+   
+     display: list-item;
+     margin-top: 10px;
+
+
+}
+#footerlinks a:hover{
+    color:#999742;
+}
+#box2{
+    text-align: center;
+}
+.line2{
+    border: 1px solid #ece949;
+    height: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:200px;
+}
+.line3{
+    border: 1px solid #ece949;
+    height: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.personalcards{
+    color: #f4f4f4;
+   
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+}
+.tcardcontainer{
+    
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.trainerpicture{
+    
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+}
+#emma{
+    background-image: url(imgs/trainer1.png);
+    background-size: cover;
+}
+#jake{
+    background-image: url(imgs/trainer5.png);
+    background-size: cover;
+}
+#noah{
+    background-image: url(imgs/trainer4.png);
+    background-size: cover;
+}
+#mia{
+    background-image: url(imgs/trainer2.png);
+    background-size: cover;
+}
+#henry{
+    background-image: url(imgs/trainer6.png);
+    background-size: cover;
+}
+#sophia{
+    background-image: url(imgs/trainer3.png);
+    background-size: cover;
+}
+.ttl{
+    padding: 40px;
+    font-size: 40px;
+}
+
+input{
+  height: 30px;
+  border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+.submitbtn{
+    padding: 10px 30px;
+    margin:20px  35%;
+    border-radius: 4px;
+    border: 2px solid #ece949;
+    background-color: #ece949;
+    transition: 0.2s;
+    color: #000000;
+}
+.submitbtn:hover{
+    background-color: #000000;
+    color: #ece949;
+} 
+
+.artcont{
+   
+    height: auto;
+    display: flex;
+    padding: 5px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.yogahead{
+    color: #f4f4f4;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.articletxt{
+    text-align: center;
+    margin: 10px 100px;
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+.articlepic{
+    background-color: aliceblue;
+    padding: 40px;
+    text-align: center;
+    margin: 5PX;
+    height: 400px;
+    width: 200px;
+
+
+}
+#artpic1{
+    background-image: url(imgs/Yoga1.png);
+    background-size: cover;
+    background-position: center;
+}
+#artpic2{
+    background-image: url(imgs/Yoga2.png);
+    background-size: cover;
+    background-position: center;
+
+}
+#artpic3{
+    background-image: url(imgs/Yoga3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#hiitspic1{
+    background-image: url(imgs/hiit1.png);
+    background-image: cover;
+    background-position: center;
+}
+#hiitspic2{
+    background-image: url(imgs/hiit2.png);
+    background-image: cover;
+    background-position: center;
+}
+#hiitspic3{
+    background-image: url(imgs/hiit3.png);
+    background-image: cover;
+    background-position: center;
+}
+#pilpic1{
+    background-image: url(imgs/pilates1.png);
+    background-size: cover;
+    background-position: center;
+}
+#pilpic2{
+    background-image: url(imgs/pilates2.png);
+    background-size: cover;
+    background-position: center;
+}
+#pilpic3{
+    background-image: url(imgs/pilates3.png);
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 766;
+     
+    }
+    
+    .features {
+        flex-direction: column;
+        gap: 15px;
+        margin: 10px;
+
+    }
+    .feature {
+        
+      
+        color: #f4f4f4;
+        border-radius: 4px;
+        filter: brightness(100%);
+        transition: 0.3s;
+        padding: 70px 10px;
+        
+        
+    }
+    
+.content{
+
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    
+}
+#meetteamtxt{
+    margin: 10px;
+    height:auto;
+}
+.reviews{
+
+    height: auto;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+#yogapic {
+    float: none;
+}
+#hiitpic{
+    float: none;
+}
+#pilatespic{
+    float: none;
+}
+.class-item{
+   height: 900px;
+}
+.carp{
+    height: 450px;
+    width: 100%;
+}
+.txt{
+    
+    position:unset;
+    top: 0;
+    transform:none;
+    
+    
+    
+
+
+}
+.txtcard{
+    width: 100%;
+   
+  
+    
+}
+.lineBetween{
+    width: 300px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #ece949;
+    opacity: 100%;
+   
+    
+}
+
+.personalcards{
+    color: #f4f4f4;
+   
+    flex-direction: column;
+    margin: 20px;
+}
+form {
+margin: 20px 10px;
+}
+.submitbtn{
+    width: 170px;
+    margin: 15px auto;
+    
+}
+.articlepic{
+    height: 200px;
+   
+    background-size: cover;
+}
+.articletxt{
+    margin: 0;
+}
+.part1{
+    margin: 20px;
+}
+}
+
+@media screen and(min-width: 768px) and (max-width: 1023px){
+    .container{
+        max-width: 1023px;
+        
+    }
+    
+  
+}
+  
